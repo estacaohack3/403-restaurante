@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import Banner from './components/Banner';
 import './App.css';
-import banner1 from './assets/banner1.jpg';
 
 class App extends Component {
   render() {
@@ -10,9 +10,7 @@ class App extends Component {
           <h1>Restaurante da Gi</h1>
         </header>
 
-        <section className="banner" >
-          <img src={banner1} />
-        </section>
+        <Banner />
 
         <section>
           <div>
