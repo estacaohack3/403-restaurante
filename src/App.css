@@ -1,0 +1,9 @@
+header{
+  background-color: #830000;
+  overflow: auto;
+  color: white;
+}
+
+.banner img{
+  width: 100%;
+}
