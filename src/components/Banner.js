@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import './Banner.css';
 import banner1 from '../assets/banner1.jpg';
 import banner2 from '../assets/banner2.jpg';
+import banner3 from '../assets/banner3.jpg';
 
-let banners = [banner1, banner2];
+let banners = [banner1, banner2, banner3];
 let i = 0;
 
 class Banner extends Component {
