@@ -1,0 +1,30 @@
+
+nav{
+  height: 100vh;
+  position: absolute;
+  background-color: #830000;
+  color: white;
+  font-size: 30px;
+  transition: .5s;
+  transform: translateX(-100%);
+}
+
+nav span{
+  position: absolute;
+  right: 0;
+  padding: 10px 15px;
+}
+
+nav.ativa{
+  transform: translateX(0%);
+}
+
+nav ul{
+  padding: 0 30px;
+}
+
+nav li{
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid white;
+}

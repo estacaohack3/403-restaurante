@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
+import Header from './components/Header';
 import Banner from './components/Banner';
 import './App.css';
+import gi from './assets/gi.jpg';
 
 class App extends Component {
-  render() {
+  render = () => {
     return (
       <div>
-        <header>
-          <h1>Restaurante da Gi</h1>
-        </header>
+        <Header />
+
+        <marquee>
+          <img src={gi} />
+          <span>Oi fofinhos! Olha quem está passando</span>
+        </marquee>
 
         <Banner />
 
