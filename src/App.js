@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Banner from './components/Banner';
+import Lista from './components/Lista';
 import './App.css';
 import gi from './assets/gi.jpg';
 
@@ -17,13 +18,7 @@ class App extends Component {
 
         <Banner />
 
-        <section>
-          <div>
-            <img />
-            <h2>Macarrão</h2>
-            <h3>R$ 20,00</h3>
-          </div>
-        </section>
+        <Lista />
 
         <footer>
           <p>Rua da Gi</p>
@@ -35,3 +30,18 @@ class App extends Component {
 }
 
 export default App;
+
+// handleTouch = (event) => {
+//   let novoToque = event.touches[0].screenX
+  
+//   if(! this.ultimoToque){
+//     this.ultimoToque = novoToque;
+//     return;
+//   }
+
+//   let distancia = novoToque - this.ultimoToque;
+
+//   if(distancia > 200){
+//     //abrir menu
+//   }
+// }

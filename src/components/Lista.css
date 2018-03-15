@@ -1,0 +1,15 @@
+.lista{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.lista div{
+  padding: 5px;
+  width: 32%;
+  box-sizing: border-box;
+}
+
+.lista div img{
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Macarrão",
+    "preco": 15,
+    "imagem": "macarrao.jpg"
+  },
+  {
+    "nome": "Lasanha",
+    "preco": 20,
+    "imagem": "lasanha.jpg"
+  },
+  {
+    "nome": "Shiatsu",
+    "preco": 300,
+    "imagem": "shiatsu.jpeg"
+  },
+  {
+    "nome": "Conselho para término de relacionamento",
+    "preco": 500,
+    "imagem": "conselho.jpg"
+  }
+]
